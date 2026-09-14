@@ -3,20 +3,21 @@
 A modern and responsive Dev Stack Builder web application built with React and TypeScript. Users can explore different development technologies and create their own personalized technology stack by adding and removing technologies dynamically.
 
 #Technologies Used
--React 
--TypeScript 
--Vite 
--Tailwind CSS 
--React Toastify 
--JSON 
+-React
+-TypeScript
+-Vite
+-Tailwind CSS
+-React Toastify
+-JSON
 
-# 3  Features 
+# 3 Features
+
 - Browse development technologies
 - Build a personalized technology stack
-- Add and remove technologies dynamically 
-
+- Add and remove technologies dynamically
 
 ## 🧠 React Questions & Answers
+
 # 1. What is JSX, and why is it used in React?
 
 JSX is a syntax that lets us write HTML-like code inside JavaScript or TypeScript. It makes React code easier to read and helps us create the UI structure more clearly.
@@ -44,5 +45,3 @@ Conditional rendering means showing different UI based on a condition. In this p
 # 7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
 
 Data and functions are passed from a parent to a child through props. In this project, the parent passes technology data and functions like handleAddToStack to the child. The child can communicate with the parent by calling the function received through props.
-
-
